@@ -1,0 +1,125 @@
+<body>
+    <nav class="navi">
+    <ul>
+    <li><a href="#">HOME</a></li>
+    <li class="dropdown">
+    <a href="#" class="dropbtn">JURUSAN</a>
+    <div class="dropdown-content">
+    <a href="#">Teknik Kendaraan Ringan</a>
+    <a href="#">Teknik Pemesinan</a>
+    <a href="#">Teknik Pengelasan</a>
+    <a href="#">Teknik Komputer Jaringan</a>
+    <a href="#">Teknik Audio Vidio</a>
+    <a href="#">Teknik Bangunan</a>
+    <li><a href="#">ABOUT</a></li>
+    <li class="dropdown">
+        <a href="#" class="dropbtn">PSB</a>
+        <div class="dropdown-content">
+        <a href="#">Formulir Pendaftaran</a>
+        <!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>Pendaftaran</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Nama lengkap..." />
+        </p>
+        <p>
+            <p>
+                <label>Jenis Kelamin:</label>
+                <input type="text" name="Jenis Kelamin" placeholder="Jenis Kelamin..." />
+            </p>
+        </p>
+        <p>
+            <label>Alamat:</label>
+            <textarea name="Alamat"></textarea>
+        </p>
+        <p>
+            <label>Asal Sekolah:</label>
+            <input type="text"name="Asal Sekolah" placeholder="Asal Sekolah..." />
+        </p>
+        <p>
+            <label>Jurusan Yang Dipilih:</label>
+            <select name="Jurusan yang dipilih">
+                <option value="Teknik Kendaraan Ringan">Teknik Kendaraan Ringan</option>
+                <option value="Teknik Pemesinan">Teknik Pemesinan</option>
+                <option value="Teknik Pengelasan">Teknik Pengelasan</option>
+                <option value="Teknik Komputer Jaringan">Teknik Komputer Jaringan</option>
+                <option value="Teknik Audio Vidio">Teknik Audio Vidio</option>
+                <option value="Teknik Bangunan">Teknik Bangunan</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Daftar"/>
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
+    <style type="text/css">
+    a{text-decoration: none; font-size: 20px;font-family: sans-serif;padding: 14px 10px}
+    ul{padding: 14px}
+    li{list-style: none; display: inline;}
+    li a{background: #222; color:#d4d4d4;}
+    li a:hover{background: #4da4ff; color:#fff;}
+    .navi{background: #222; height: 50px}
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+    
+    li {
+    float: left;
+    }
+    
+    li a, .dropbtn {
+    display: inline-block;
+    color: greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(141, 81, 81);
+    }
+    
+    li.dropdown {
+    display: inline-block;
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    
+    .dropdown-content a {
+    color: red;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+    
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    </div>
+    </style>
+    </ul>
+    </nav>
+    </body>
